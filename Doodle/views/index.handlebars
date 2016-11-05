@@ -45,6 +45,7 @@ var i = 0;
 setInterval(function(){
   if(i<500) {
       i = i + 2;
+      ctx.fillStyle= "cyan";
       ctx.fillRect(0, 0, 800, i);
   } else if(i == 500){
       ctx.font="30px Comic Sans MS";
@@ -53,7 +54,7 @@ setInterval(function(){
       gradient.addColorStop("0.5","#ffffff");
       gradient.addColorStop("1.0","#36f95a");
       ctx.fillStyle=gradient;
-      ctx.fillText("Christmas Doodle",315, 250);
+      ctx.fillText("Christmas Doodle",290, 250);
       i = 501
   } else if (i>500 && i<1000) {
 
