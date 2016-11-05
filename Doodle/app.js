@@ -10,6 +10,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 
 app.set('view engine', 'handlebars');
 // view engine setup
@@ -23,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', function(req, res) {
+app.get('/hello', function(req, res) {
   res.render('index');
 });
 
