@@ -48,8 +48,12 @@ setInterval(function(){
       ctx.fillRect(0, 0, 800, i);
   } else {
       ctx.font="30px Comic Sans MS";
-      ctx.fillStyle = "white";
-      ctx.fillText("Game Started",400, 250);
+      var gradient=ctx.createLinearGradient(0,0,c.width,0);
+      gradient.addColorStop("0","#f93636");
+      gradient.addColorStop("0.5","#ffffff");
+      gradient.addColorStop("1.0","#36f95a");
+      ctx.fillStyle=gradient;
+      ctx.fillText("Game Started",315, 250);
   }
 },10);
 </script>
