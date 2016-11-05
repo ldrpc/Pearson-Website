@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e46d1fe9-d090-4318-a462-53aba7565364" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doodle/views/index.handlebars" afterPath="$PROJECT_DIR$/Doodle/views/index.handlebars" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doodle/views/layouts/main.handlebars" afterPath="$PROJECT_DIR$/Doodle/views/layouts/main.handlebars" />
     </list>
     <ignored path="Server.iws" />
@@ -36,21 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.handlebars" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.handlebars" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Doodle/views/index.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="66" />
+            <state relative-caret-position="0">
+              <caret line="0" column="66" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.handlebars" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Doodle/views/layouts/main.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+            <state relative-caret-position="0">
+              <caret line="0" column="66" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -70,9 +71,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Doodle/views/main.handlebars" />
-        <option value="$PROJECT_DIR$/Doodle/views/index.handlebars" />
         <option value="$PROJECT_DIR$/Doodle/app.js" />
         <option value="$PROJECT_DIR$/Doodle/views/layouts/main.handlebars" />
+        <option value="$PROJECT_DIR$/Doodle/views/index.handlebars" />
       </list>
     </option>
   </component>
@@ -572,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478306521178</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Handlebars">
+      <created>1478306572642</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1478306572642</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -656,18 +664,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Doodle/views/index.handlebars">
+    <entry file="file://$PROJECT_DIR$/Doodle/views/layouts/main.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="66" />
+        <state relative-caret-position="0">
+          <caret line="0" column="66" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Doodle/views/layouts/main.handlebars">
+    <entry file="file://$PROJECT_DIR$/Doodle/views/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+        <state relative-caret-position="0">
+          <caret line="0" column="66" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
           <folding />
         </state>
       </provider>
