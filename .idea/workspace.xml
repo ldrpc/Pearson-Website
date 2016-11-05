@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e46d1fe9-d090-4318-a462-53aba7565364" name="Default" comment="Handlebars">
+    <list default="true" id="e46d1fe9-d090-4318-a462-53aba7565364" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doodle/views/index.handlebars" afterPath="$PROJECT_DIR$/Doodle/views/index.handlebars" />
     </list>
@@ -30,8 +30,8 @@
       <file leaf-file-name="index.handlebars" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Doodle/views/index.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            <state relative-caret-position="557">
+              <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#center#0;n#body#0;n#!!top" expanded="true" />
               </folding>
@@ -617,7 +617,7 @@
       <updated>1478303126639</updated>
       <workItem from="1478303129358" duration="150000" />
       <workItem from="1478380532031" duration="88000" />
-      <workItem from="1478380654055" duration="909000" />
+      <workItem from="1478380654055" duration="1007000" />
     </task>
     <task id="LOCAL-00001" summary="Handlebars">
       <created>1478304787337</created>
@@ -899,11 +899,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478381496637</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Handlebars">
+      <created>1478381573454</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1478381573454</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1147000" />
+    <option name="totallyTimeSpent" value="1245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
@@ -1335,8 +1342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Doodle/views/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="557">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#center#0;n#body#0;n#!!top" expanded="true" />
           </folding>

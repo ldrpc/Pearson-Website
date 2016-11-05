@@ -43,15 +43,11 @@ var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
 var i = 0;
 setInterval(function(){
-    if(i<800){
+    var  i = 0;
+    if(i<800) {
         i = i + 1;
-        ctx.fillRect(0,0,i,500);
-    } else {
-
+        ctx.fillRect(0, 0, 800, i);
     }
-},10);
-for(i;i<800;i++){
-
-}
+},100);
 </script>
 </body>
