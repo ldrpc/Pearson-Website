@@ -46,14 +46,19 @@ setInterval(function(){
   if(i<500) {
       i = i + 2;
       ctx.fillRect(0, 0, 800, i);
-  } else {
+  } else if(i == 500){
       ctx.font="30px Comic Sans MS";
       var gradient=ctx.createLinearGradient(0,0,c.width,0);
-      gradient.addColorStop("0","#f93636");
+      gradient.addColorStop("0","red");
       gradient.addColorStop("0.5","#ffffff");
       gradient.addColorStop("1.0","#36f95a");
       ctx.fillStyle=gradient;
-      ctx.fillText("Game Started",315, 250);
+      ctx.fillText("Christmas Doodle",315, 250);
+      i = 501
+  } else if (i>500 && i<1000) {
+
+  } else {
+
   }
 },10);
 </script>
