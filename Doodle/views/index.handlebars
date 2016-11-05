@@ -53,7 +53,7 @@ setInterval(function(){
       gradient.addColorStop("1.0","#9635ba");
       ctx.fillStyle=gradient;
       ctx.fillRect(0, 0, 800, i);
-  } else if(i == 499) {
+  } else if(i == 500) {
       ctx.font = "30px Comic Sans MS";
       var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
       gradient.addColorStop("0", "red");
@@ -64,12 +64,7 @@ setInterval(function(){
       x = 500
   }
   if (x>0) {
-      x = x - 2;
-      var gradient=ctx.createLinearGradient(0,0,c.width,0);
-      gradient.addColorStop("0","#3568ba");
-      gradient.addColorStop("1.0","#9635ba");
-      ctx.fillStyle=gradient;
-      ctx.fillRect(0, 0, 800, i);
+
   } else if(x==0){
 
   }
