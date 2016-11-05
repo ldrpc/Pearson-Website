@@ -36,6 +36,12 @@
     <p></p>
     <p></p>
     <p></p>
-    <canvas class="w3-border w3-border-black" height="500" width="800" style="float: center;"></canvas>
+    <canvas id="canvas" class="w3-border w3-border-black" height="500" width="800" style="float: center;"></canvas>
 </center>
+<script>
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = red;
+ctx.fillRect(0,0,800,500);
+</script>
 </body>
