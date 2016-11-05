@@ -16,10 +16,12 @@
                 <font color="#f93636">a</font>
                 <font color="#36f95a">s</font>
             &nbsp;
-                <font color="#f93636"> G</font>
-                <font color="#36f95a">a</font>
-                <font color="#f93636">m</font>
-                <font color="#36f95a">e</font>
+                <font color="#f93636"> D</font>
+                <font color="#36f95a">o</font>
+                <font color="#f93636">o</font>
+                <font color="#36f95a">d</font>
+    <font color="#f93636">l</font>
+    <font color="#36f95a">e</font>
 </strong>
         </h1>
         </center>
@@ -42,6 +44,7 @@
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
 var i = 0;
+var x = 0;
 setInterval(function(){
   if(i<500) {
       i = i + 2;
@@ -50,18 +53,24 @@ setInterval(function(){
       gradient.addColorStop("1.0","#9635ba");
       ctx.fillStyle=gradient;
       ctx.fillRect(0, 0, 800, i);
-  } else if(i == 500){
-      ctx.font="30px Comic Sans MS";
+  } else if(i == 500) {
+      ctx.font = "30px Comic Sans MS";
+      var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+      gradient.addColorStop("0", "red");
+      gradient.addColorStop("0.5", "#ffffff");
+      gradient.addColorStop("1.0", "#36f95a");
+      ctx.fillStyle = gradient;
+      ctx.fillText("Christmas Doodle", 290, 250);
+      x = 500
+  }
+  if (x>0) {
+      i = i - 2;
       var gradient=ctx.createLinearGradient(0,0,c.width,0);
-      gradient.addColorStop("0","red");
-      gradient.addColorStop("0.5","#ffffff");
-      gradient.addColorStop("1.0","#36f95a");
+      gradient.addColorStop("0","#3568ba");
+      gradient.addColorStop("1.0","#9635ba");
       ctx.fillStyle=gradient;
-      ctx.fillText("Christmas Doodle",290, 250);
-      i = 501
-  } else if (i>500 && i<1000) {
-
-  } else {
+      ctx.fillRect(0, 0, 800, i);
+  } else if(x==0){
 
   }
 },10);
