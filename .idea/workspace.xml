@@ -29,8 +29,8 @@
       <file leaf-file-name="index.handlebars" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Doodle/views/index.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="440">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#0;n#center#0;n#body#0;n#!!top" expanded="true" />
@@ -825,7 +825,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478378789162</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Handlebars">
+      <created>1478378826899</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1478378826899</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1019,8 +1026,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Doodle/views/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="440">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#center#0;n#body#0;n#!!top" expanded="true" />
