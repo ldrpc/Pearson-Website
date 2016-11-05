@@ -45,7 +45,10 @@ var i = 0;
 setInterval(function(){
   if(i<500) {
       i = i + 2;
-      ctx.fillStyle= "cyan";
+      var gradient=ctx.createLinearGradient(0,0,c.width,0);
+      gradient.addColorStop("0","#3568ba");
+      gradient.addColorStop("1.0","#9635ba");
+      ctx.fillStyle=gradient;
       ctx.fillRect(0, 0, 800, i);
   } else if(i == 500){
       ctx.font="30px Comic Sans MS";
