@@ -3,30 +3,17 @@
     <title>
         Xmas Doodle
     </title>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-7713797170468014",
+            enable_page_level_ads: true
+        });
+    </script>
 </head>
 <body>
 <ul class="w3-navbar w3-teal w3-center w3-border-bottom w3-border-lightgray">
-    <li style="width:100%">
-        <a class="w3-padding w3-teal w3-center" href="/">
-        <center>
-        <h1>
-<strong>
-                <font color="#f93636">X</font>
-                <font color="#36f95a">m</font>
-                <font color="#f93636">a</font>
-                <font color="#36f95a">s</font>
-            &nbsp;
-                <font color="#f93636"> D</font>
-                <font color="#36f95a">o</font>
-                <font color="#f93636">o</font>
-                <font color="#36f95a">d</font>
-    <font color="#f93636">l</font>
-    <font color="#36f95a">e</font>
-</strong>
-        </h1>
-        </center>
-        </a>
-    </li>
+
 </ul>
 <style>
     .center{
@@ -34,40 +21,5 @@
     left: 50%;
     }
 </style>
-<center>
-    <p></p>
-    <p></p>
-    <p></p>
-    <canvas id="canvas" class="w3-border w3-border-black" height="500" width="800" style="allign: center"></canvas>
-</center>
-<script>
-var c = document.getElementById("canvas");
-var ctx = c.getContext("2d");
-var i = 0;
-var x = 0;
-setInterval(function(){
-  if(i<500) {
-      i = i + 2;
-      var gradient=ctx.createLinearGradient(0,0,c.width,0);
-      gradient.addColorStop("0","#3568ba");
-      gradient.addColorStop("1.0","#9635ba");
-      ctx.fillStyle=gradient;
-      ctx.fillRect(0, 0, 800, i);
-  } else if(i == 500) {
-      ctx.font = "30px Comic Sans MS";
-      var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
-      gradient.addColorStop("0", "red");
-      gradient.addColorStop("0.5", "#ffffff");
-      gradient.addColorStop("1.0", "#36f95a");
-      ctx.fillStyle = gradient;
-      ctx.fillText("Christmas Doodle", 290, 250);
-      x = 500
-  }
-  if (x>0) {
 
-  } else if(x==0){
-
-  }
-},10);
-</script>
 </body>
