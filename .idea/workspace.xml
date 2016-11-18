@@ -30,9 +30,10 @@
       <file leaf-file-name="index.handlebars" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Doodle/views/index.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+            <state relative-caret-position="169">
+              <caret line="41" column="12" selection-start-line="40" selection-start-column="108" selection-end-line="41" selection-end-column="12" />
               <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#center#0;n#div#1;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -788,14 +789,7 @@
       <workItem from="1478380532031" duration="88000" />
       <workItem from="1478380654055" duration="2466000" />
       <workItem from="1478468400136" duration="4083000" />
-      <workItem from="1479427765279" duration="7025000" />
-    </task>
-    <task id="LOCAL-00048" summary="Handlebars">
-      <created>1478382248618</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1478382248618</updated>
+      <workItem from="1479427765279" duration="7104000" />
     </task>
     <task id="LOCAL-00049" summary="Handlebars">
       <created>1478382514753</created>
@@ -1133,11 +1127,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479435360516</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Handlebars">
+      <created>1479435403698</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1479435403698</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13812000" />
+    <option name="totallyTimeSpent" value="13891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
@@ -1199,6 +1200,7 @@
         <state relative-caret-position="418">
           <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#center#0;n#div#1;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -1281,6 +1283,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#center#0;n#div#1;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -1363,6 +1366,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#center#0;n#div#1;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -1452,6 +1456,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#center#0;n#div#1;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -1598,9 +1603,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Doodle/views/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        <state relative-caret-position="169">
+          <caret line="41" column="12" selection-start-line="40" selection-start-column="108" selection-end-line="41" selection-end-column="12" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#center#0;n#div#1;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
