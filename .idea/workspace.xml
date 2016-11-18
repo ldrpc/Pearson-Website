@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e46d1fe9-d090-4318-a462-53aba7565364" name="Default" comment="Handlebars">
+    <list default="true" id="e46d1fe9-d090-4318-a462-53aba7565364" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doodle/views/privacy.handlebars" afterPath="$PROJECT_DIR$/Doodle/views/privacy.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doodle/views/about.handlebars" afterPath="$PROJECT_DIR$/Doodle/views/about.handlebars" />
     </list>
     <ignored path="Server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="privacy.handlebars" pinned="false" current-in-tab="true">
+      <file leaf-file-name="privacy.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Doodle/views/privacy.handlebars">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="77" />
               <folding>
                 <element signature="e#2315#2321#0#HTML" expanded="true" />
                 <element signature="e#2411#2417#0#HTML" expanded="true" />
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.handlebars" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.handlebars" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Doodle/views/about.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="462">
+              <caret line="21" column="243" selection-start-line="21" selection-start-column="243" selection-end-line="21" selection-end-column="243" />
               <folding />
             </state>
           </provider>
@@ -150,9 +150,9 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/Doodle/views/layouts/main.handlebars" />
         <option value="$PROJECT_DIR$/Doodle/views/index.handlebars" />
-        <option value="$PROJECT_DIR$/Doodle/views/about.handlebars" />
         <option value="$PROJECT_DIR$/Doodle/app.js" />
         <option value="$PROJECT_DIR$/Doodle/views/privacy.handlebars" />
+        <option value="$PROJECT_DIR$/Doodle/views/about.handlebars" />
       </list>
     </option>
   </component>
@@ -788,14 +788,7 @@
       <workItem from="1478380532031" duration="88000" />
       <workItem from="1478380654055" duration="2466000" />
       <workItem from="1478468400136" duration="4083000" />
-      <workItem from="1479427765279" duration="6269000" />
-    </task>
-    <task id="LOCAL-00044" summary="Handlebars">
-      <created>1478381789163</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1478381789163</updated>
+      <workItem from="1479427765279" duration="6765000" />
     </task>
     <task id="LOCAL-00045" summary="Handlebars">
       <created>1478381867642</created>
@@ -1133,19 +1126,26 @@
       <option name="project" value="LOCAL" />
       <updated>1479434574454</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Handlebars">
+      <created>1479434647491</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1479434647491</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13056000" />
+    <option name="totallyTimeSpent" value="13552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1679473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1679473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1568,6 +1568,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Doodle/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Doodle/views/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -1578,31 +1586,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Doodle/views/about.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Doodle/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Doodle/views/privacy.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="77" />
           <folding>
             <element signature="e#2315#2321#0#HTML" expanded="true" />
             <element signature="e#2411#2417#0#HTML" expanded="true" />
             <element signature="e#2583#2589#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doodle/views/about.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="243" selection-start-line="21" selection-start-column="243" selection-end-line="21" selection-end-column="243" />
+          <folding />
         </state>
       </provider>
     </entry>
