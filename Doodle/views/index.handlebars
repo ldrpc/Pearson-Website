@@ -28,29 +28,32 @@ z-index:999;">
 </head>
 
 <body>
-<ul class="w3-navbar w3-teal w3-center w3-border-bottom w3-border-lightgray">
-    <li style="width:100%; height: 10%">
-        <a class="w3-padding w3-teal w3-center" href="/">
-            <p style="float: bottom"> <strong> <h1> Pearson Answers </h1> </strong> </p>
 
-        </a>
-    </li>
-</ul>
 <script>
-    function openCity(evt, cityName) {
-        var i, x, tablinks;
-        x = document.getElementsByClassName("city");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablink");
-        for (i = 0; i < x.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " w3-red";
+
+    function openPage(cityName) {
+        window.location.href = '/' + cityName;
     }
 </script>
+
+<div class="w3-row w3-black">
+    <center>
+    <a href="javascript:void(0)" onclick="openPage('privacy');">
+        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-white">Privacy</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openPage('index');">
+        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-white">Home</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openPage('about');">
+        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-white">About</div>
+    </a>
+    </center>
+</div>
+
+
+</div>
+<p></p>
+<center><button class="w3-button w3-round w3-deep-orange w3-border w3-border-lightgray" style="height: 100px; width: 350px; margin: 20px">Pearson #1 - Geometry Lines and Angles</button></center>
 <div id="London" class="w3-container w3-border city">
     <h2>London</h2>
     <p>London is the capital city of England.</p>
@@ -66,24 +69,6 @@ z-index:999;">
     <p>Tokyo is the capital of Japan.</p>
 </div>
 </div>
-<div class="w3-row w3-black">
-    <center>
-    <a href="javascript:void(0)" onclick="openCity(event, 'London');">
-        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-white">Privacy</div>
-    </a>
-    <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
-        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-white">Home</div>
-    </a>
-    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
-        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-white">About</div>
-    </a>
-    </center>
-</div>
-
-
-</div>
-<p></p>
-<center><button class="w3-button w3-round w3-deep-orange w3-border w3-border-lightgray" style="height: 100px; width: 350px; margin: 20px">Pearson #1 - Geometry Lines and Angles</button></center>
 <style>
     .center{
     top: 65%;

@@ -27,7 +27,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', function(req, res) {
   res.render('index');
 });
-
+app.get('/index', function(req, res) {
+  res.render('index');
+});
+app.get('/privacy', function(req, res) {
+  res.render('privacy');
+});
 // catch 404 and forward to error handler
 
 
