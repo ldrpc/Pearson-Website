@@ -33,6 +33,9 @@ app.get('/index', function(req, res) {
 app.get('/privacy', function(req, res) {
   res.render('privacy');
 });
+app.get('/about', function(req, res) {
+  res.render('about');
+});
 // catch 404 and forward to error handler
 
 
