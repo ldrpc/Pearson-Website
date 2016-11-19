@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e46d1fe9-d090-4318-a462-53aba7565364" name="Default" comment="">
+    <list default="true" id="e46d1fe9-d090-4318-a462-53aba7565364" name="Default" comment="Handlebars">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doodle/views/pearsonOne.handlebars" afterPath="$PROJECT_DIR$/Doodle/views/pearsonOne.handlebars" />
     </list>
     <ignored path="Server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +43,8 @@
       <file leaf-file-name="pearsonOne.handlebars" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Doodle/views/pearsonOne.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            <state relative-caret-position="169">
+              <caret line="32" column="508" selection-start-line="32" selection-start-column="508" selection-end-line="32" selection-end-column="508" />
               <folding />
             </state>
           </provider>
@@ -789,14 +790,7 @@
       <workItem from="1478380532031" duration="88000" />
       <workItem from="1478380654055" duration="2466000" />
       <workItem from="1478468400136" duration="4083000" />
-      <workItem from="1479427765279" duration="12184000" />
-    </task>
-    <task id="LOCAL-00069" summary="Handlebars">
-      <created>1478471211444</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1478471211444</updated>
+      <workItem from="1479427765279" duration="12289000" />
     </task>
     <task id="LOCAL-00070" summary="Handlebars">
       <created>1478471265337</created>
@@ -1134,19 +1128,26 @@
       <option name="project" value="LOCAL" />
       <updated>1479524300616</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Handlebars">
+      <created>1479524305297</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1479524305297</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18971000" />
+    <option name="totallyTimeSpent" value="19076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1679473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1679473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1603,8 +1604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Doodle/views/pearsonOne.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state relative-caret-position="169">
+          <caret line="32" column="508" selection-start-line="32" selection-start-column="508" selection-end-line="32" selection-end-column="508" />
           <folding />
         </state>
       </provider>
