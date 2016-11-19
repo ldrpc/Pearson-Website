@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/Doodle/views/pearsonOne.handlebars">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="66" column="257" selection-start-line="66" selection-start-column="257" selection-end-line="66" selection-end-column="257" />
+              <caret line="66" column="228" selection-start-line="66" selection-start-column="228" selection-end-line="66" selection-end-column="228" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -792,14 +792,7 @@
       <workItem from="1478380532031" duration="88000" />
       <workItem from="1478380654055" duration="2466000" />
       <workItem from="1478468400136" duration="4083000" />
-      <workItem from="1479427765279" duration="13312000" />
-    </task>
-    <task id="LOCAL-00082" summary="Handlebars">
-      <created>1479432587812</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1479432587812</updated>
+      <workItem from="1479427765279" duration="13334000" />
     </task>
     <task id="LOCAL-00083" summary="Handlebars">
       <created>1479432683182</created>
@@ -1137,11 +1130,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479525382835</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Handlebars">
+      <created>1479525434778</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1479525434778</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20099000" />
+    <option name="totallyTimeSpent" value="20121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
@@ -1607,7 +1607,7 @@
     <entry file="file://$PROJECT_DIR$/Doodle/views/pearsonOne.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="66" column="257" selection-start-line="66" selection-start-column="257" selection-end-line="66" selection-end-column="257" />
+          <caret line="66" column="228" selection-start-line="66" selection-start-column="228" selection-end-line="66" selection-end-column="228" />
           <folding>
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
           </folding>
