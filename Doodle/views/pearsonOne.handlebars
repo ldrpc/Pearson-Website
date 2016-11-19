@@ -18,7 +18,7 @@
         </a>
     </center>
 </div>
-<table class="w3-table-all" id="myTable">
+<table class="w3-table-all w3-centered" id="myTable">
     <thead>
     <tr class="w3-light-grey w3-hover-red">
         <th>First Name</th>
@@ -26,12 +26,13 @@
         <th>Points</th>
     </tr>
     </thead>
+</table>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
     var g = 0;
     setInterval(function () {
         if(g<82) {
-            $('#myTable tbody').append('<tr class="w3-hover-green"><td>blahblah</td></tr>');
+            $('#myTable').append('<tr class="w3-hover-green"><td>blahblah</td></tr>');
             g++
         }
     }, 100);
