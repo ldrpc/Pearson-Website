@@ -35,9 +35,10 @@
                 split = string[g].split(".");
                 var answer = split[1];
                 var thevab = "#" + split[0] + " - " + split[1];
-                if (answer == "A")
+                if (answer == "A") {
                     $('#myTable').append('<tr class="w3-hover-red"><td>' + thevab + '</td></tr>');
-                if (answer == "B") {
+                }
+                else if (answer == "B") {
                     $('#myTable').append('<tr class="w3-hover-blue"><td>' + thevab + '</td></tr>');
                 }
                 else if (answer == "C") {
