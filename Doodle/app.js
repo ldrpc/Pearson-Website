@@ -39,6 +39,9 @@ app.get('/about', function(req, res) {
 app.get('/pearsonOne', function(req, res) {
   res.render('pearsonOne');
 });
+app.get('/pearsonTwo', function(req, res) {
+    res.render('pearsonOne');
+});
 // catch 404 and forward to error handler
 
 
