@@ -1,0 +1,38 @@
+<script>
+
+    function openPage(cityName) {
+        window.location.href = '/' + cityName;
+    }
+</script>
+
+<div class="w3-row w3-black">
+    <center>
+        <a href="javascript:void(0)" onclick="openPage('privacy');">
+            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-white">Privacy</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openPage('index');">
+            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-sand">Home</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openPage('about');">
+            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding w3-white">About</div>
+        </a>
+    </center>
+</div>
+<table class="w3-table-all" id="myTable">
+    <thead>
+    <tr class="w3-light-grey w3-hover-red">
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Points</th>
+    </tr>
+    </thead>
+<script>
+    var g = 0;
+    setInterval(function () {
+        if(g<82) {
+            $('#myTable tbody').append('<tr class="w3-hover-green"><td>blahblah</td></tr>');
+            g++
+        }
+    }, 100);
+
+</script>

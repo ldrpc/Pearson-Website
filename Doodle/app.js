@@ -36,6 +36,9 @@ app.get('/privacy', function(req, res) {
 app.get('/about', function(req, res) {
   res.render('about');
 });
+app.get('/pearsonOne', function(req, res) {
+  res.render('pearsonOne');
+});
 // catch 404 and forward to error handler
 
 
