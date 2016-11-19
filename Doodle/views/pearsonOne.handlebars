@@ -25,8 +25,42 @@
     </tr>
     </thead>
 </table>
+<div id="notification" style="display: none;">
+    <span class="dismiss"><a title="dismiss this notification">x</a></span>
+</div>
+<style>
+    #notification {
+        position:fixed;
+        top:0px;
+        width:100%;
+        z-index:105;
+        text-align:center;
+        font-weight:normal;
+        font-size:14px;
+        font-weight:bold;
+        color:white;
+        background-color:#FF7800;
+        padding:5px;
+    }
+    #notification span.dismiss {
+        border:2px solid #FFF;
+        padding:0 5px;
+        cursor:pointer;
+        float:right;
+        margin-right:10px;
+    }
+    #notification a {
+        color:white;
+        text-decoration:none;
+        font-weight:bold
+    }
+</style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
+    $("#notification").fadeIn("slow").append('your message');
+    $(".dismiss").click(function(){
+        $("#notification").fadeOut("slow");
+    });
     var g = 0;
     setInterval(function () {
         if(g<82) {
@@ -55,6 +89,6 @@
 
             }
         }
-    }, 150);
+    }, 200);
 
 </script>
