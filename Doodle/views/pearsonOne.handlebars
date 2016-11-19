@@ -37,16 +37,20 @@
                 var thevab = "#" + split[0] + " - " + split[1];
                 if (answer == "A")
                     $('#myTable').append('<tr class="w3-hover-red"><td>' + thevab + '</td></tr>');
-                if (answer == "B")
+                if (answer == "B") {
                     $('#myTable').append('<tr class="w3-hover-blue"><td>' + thevab + '</td></tr>');
-                if (answer == "C")
+                }
+               else if (answer == "C") {
                     $('#myTable').append('<tr class="w3-hover-green"><td>' + thevab + '</td></tr>');
-                if (answer == "D")
+                }
+               else if (answer == "D") {
                     $('#myTable').append('<tr class="w3-hover-yellow"><td>' + thevab + '</td></tr>');
-            if(answer = "G")
-                $('#myTable').append('<tr class="w3-hover-grey"><td>' + "#" + split[0] + " - " + "UNKNOWN" + '</td></tr>');
+                }
+               else if(answer = "G") {
+                    $('#myTable').append('<tr class="w3-hover-grey"><td>' + "#" + split[0] + " - " + "UNKNOWN" + '</td></tr>');
+                }
             g++
         }
-    }, 200);
+    }, 150);
 
 </script>
