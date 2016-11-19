@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46d1fe9-d090-4318-a462-53aba7565364" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Doodle/views/pearsonOne.handlebars" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doodle/app.js" afterPath="$PROJECT_DIR$/Doodle/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doodle/views/index.handlebars" afterPath="$PROJECT_DIR$/Doodle/views/index.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Doodle/views/pearsonOne.handlebars" afterPath="$PROJECT_DIR$/Doodle/views/pearsonOne.handlebars" />
     </list>
     <ignored path="Server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/Doodle/views/pearsonOne.handlebars">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="572">
-              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -792,14 +790,7 @@
       <workItem from="1478380532031" duration="88000" />
       <workItem from="1478380654055" duration="2466000" />
       <workItem from="1478468400136" duration="4083000" />
-      <workItem from="1479427765279" duration="10920000" />
-    </task>
-    <task id="LOCAL-00057" summary="Handlebars">
-      <created>1478468854277</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1478468854278</updated>
+      <workItem from="1479427765279" duration="10977000" />
     </task>
     <task id="LOCAL-00058" summary="Handlebars">
       <created>1478468991383</created>
@@ -1137,11 +1128,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479437394981</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Handlebars">
+      <created>1479523041882</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1479523041882</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17707000" />
+    <option name="totallyTimeSpent" value="17764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
@@ -1607,7 +1605,7 @@
     <entry file="file://$PROJECT_DIR$/Doodle/views/pearsonOne.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding />
         </state>
       </provider>
