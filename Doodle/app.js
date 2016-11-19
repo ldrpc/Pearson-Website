@@ -40,7 +40,7 @@ app.get('/pearsonOne', function(req, res) {
   res.render('pearsonOne');
 });
 app.get('/pearsonTwo', function(req, res) {
-    res.render('pearsonOne');
+    res.render('pearsonTwo');
 });
 // catch 404 and forward to error handler
 
