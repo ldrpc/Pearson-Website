@@ -45,7 +45,8 @@
                     $('#myTable').append('<tr class="w3-hover-yellow"><td>' + thevab + '</td></tr>');
 
             } catch (err){
-                $('#myTable').append('<tr class="w3-hover-gray"><td>' + "#" + string[g] + " - UNKNOWN" + '</td></tr>');
+                var tt = "#" + string[g] + " - UNKNOWN";
+                $('#myTable').append('<tr class="w3-hover-grey"><td>' + tt + '</td></tr>');
             }
             g++
         }
