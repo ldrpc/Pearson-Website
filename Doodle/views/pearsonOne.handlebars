@@ -26,11 +26,12 @@
         <th>Points</th>
     </tr>
     </thead>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
     var g = 0;
     setInterval(function () {
         if(g<82) {
-            $('#myTable').append('<tr class="w3-hover-green"><td>blahblah</td></tr>');
+            $('#myTable tbody').append('<tr class="w3-hover-green"><td>blahblah</td></tr>');
             g++
         }
     }, 100);
